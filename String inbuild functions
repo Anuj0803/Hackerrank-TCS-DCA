@@ -1,0 +1,89 @@
+package practice;
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) 
+    {
+    	Scanner sc = new Scanner(System.in);
+    	String st =sc.nextLine();
+    	/*   concatenation
+    	  String st1 = sc.nextLine();
+    	String st2 = st.concat(" "+st1);
+    	System.out.println(st2);*/
+    	
+    	/*  Replace old char with a new one
+    	 String st2 =st.replace("a", "A");
+    	System.out.println(st2);*/
+    	
+    	/* position of char in a string
+    	int st2 = st.indexOf("a");
+    	System.out.println(st2);*/
+    	
+    	/* replace a char from a string with a space
+    	String st2 = st.replaceAll("8", "");
+    	System.out.println(st2);*/
+    	
+    	
+    	/* length of string
+    	  int st2 = st.length();
+    	  System.out.println(st2);*/
+    	
+    	/* check two strings are equal or not
+    (i)
+    	String st2 = "anuj";
+    	String st3 = "ANUJ";
+    	System.out.println(st2.equals(st3));
+    (ii)
+    	String st2 = "anuj";
+    	String st3 = "ANUJ";
+    	System.out.println(st2==st3);
+    (iii)	
+    	String st2 = "anuj";
+    	String st3 = "Anuj";
+    	System.out.println(st2.compareTo(st3));*/
+    	
+    	/* substring from a string
+    	String st2 = "anuj bhargav";
+    	System.out.println(st2.substring(6));
+    	System.out.println(st2.substring(3, 7)); */
+    	
+    	/* string to upper and lower case
+    	String st2 = "ANUJ BHARGAV";
+    	System.out.println(st2.toLowerCase());
+    	String st3 = "anuj bhargav";
+    	System.out.println(st3.toUpperCase());*/
+    	
+    	/* eliminates white spaces before and after string
+    	String st2 = "     anuj bhargav      ";
+    	System.out.println(st2.trim());*/
+    	
+    	/* to check a string starts and ends with a char
+    	String st2 = "anuj";
+    	System.out.println(st2.startsWith("a"));
+    	System.out.println(st2.endsWith("j"));*/
+    	
+    	/* to fid the char at specific position
+    	String st2 = "anuj";
+    	System.out.println(st2.charAt(3));*/
+    	
+    	/*checks a sting is empty or not
+    	String st2 ="";
+    	System.out.println(st2.isEmpty());*/
+    	
+    	/* replaces a first substrng with the 2nd
+    	String st2 ="anuj bhargav";
+    	System.out.println(st2.replaceFirst("arg", "xxx"));*/
+    	
+    	/* return hash code of the string
+    	String st2 ="anuj bhargav";
+    	System.out.println(st2.hashCode());*/
+    	
+    	/* mathes two strings
+    	String st2 ="anuj";
+    	System.out.println(st2.matches(st));*/
+    	
+    	
+    }
+}
