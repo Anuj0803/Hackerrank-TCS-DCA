@@ -1,0 +1,18 @@
+// Remove 53 and 8 from a string 
+
+package practice;
+import java.util.*;
+public class hello1 
+{
+	public static void main(String[] args)
+	{
+		System.out.println("enter string");
+		Scanner sc = new Scanner(System.in);
+		String x=sc.nextLine();
+		System.out.println("input " + x);
+		String y = x.replaceAll("8", "");
+		String z = y.replaceAll("53", "");
+		String h=z.toLowerCase();
+		System.out.println("output " +h);
+	}
+}
