@@ -1,0 +1,40 @@
+/* John and Linda are playing a game. john asked linda to find a no. whose square ends with a no. itself. 
+The no. should also be a positive no. write a program to implement the same logic
+*/
+package practice;
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) 
+    {
+    	int count=0;
+    	Scanner sc = new Scanner(System.in);
+    	int n = sc.nextInt();
+    	int p=n;
+    	if(n<0)
+    	{
+    		System.out.println("wrong input");
+    	}
+    	else
+    	{
+    		while(n!=0)
+        	{
+        		count++;
+        		n=n/10;
+        	}
+        	int s = p*p;
+        	int x = (int) Math.pow(10, count);
+            int y = s%x;
+            if(p==y)
+            {
+            	System.out.println("correct no.");
+            }
+            else
+            	System.out.println("incorrect no.");
+    	}
+    	
+    }
+}
+
