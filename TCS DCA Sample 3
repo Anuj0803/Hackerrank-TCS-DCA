@@ -1,0 +1,28 @@
+//  Paul is  developing an application for block game. To find the char in the block is Uppercase , Lowercase or a Symbol
+package practice;
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) 
+    {
+        Scanner sc = new Scanner(System.in);
+        char st = sc.next().charAt(0);
+        int x = (int)st;
+        if(x>=65 & x<=90)
+        {
+        	System.out.println("uppercase letter");
+        }
+        else if (x>=97 & x<=122)
+        {
+        	System.out.println("lowercase letter");
+        }
+        // Symbols including numbers from 0-9
+        else if(x>=32 & x<=64)
+        {
+        	System.out.println("Symbol");
+        }
+    }
+}
+
