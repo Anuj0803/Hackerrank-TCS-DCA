@@ -17,6 +17,6 @@ public class Solution {
     	}
     	int p = sc.nextInt();
     	Arrays.parallelSort(arr);
-    	System.out.println(arr[p]);
+    	System.out.println(arr[p-1]);
     }
 }
