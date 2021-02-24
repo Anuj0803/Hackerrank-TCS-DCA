@@ -1,0 +1,15 @@
+// to check a substring lies in a string or not 
+package practice;
+import java.io.*;
+import java.util.*;
+public class Solution {
+
+    public static void main(String[] args) 
+    {
+       Scanner sc= new Scanner(System.in);
+       String s1 = sc.nextLine();
+       String s2 = sc.nextLine();
+       boolean isFound = s1.contains(s2);
+       System.out.println(isFound);
+    }
+}
