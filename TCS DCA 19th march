@@ -7,7 +7,8 @@ public class Solution
    {
 	   int count =0;
 	  Scanner sc = new Scanner(System.in);
-	  String s = sc.nextLine();
+	  String s1 = sc.nextLine();
+	  String s = s1.toLowerCase();
 	  int n = s.length();
 	  String a = s.substring(0,1);
 	  String c = s.substring(1,n);
